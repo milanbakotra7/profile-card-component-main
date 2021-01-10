@@ -1,0 +1,49 @@
+body{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(185, 75%, 39%);
+}
+.card{
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    background-image: url('images/bg-pattern-card.svg');
+    background-size: 100% 30%;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 10px;
+    width: 30vw; height: 60vh;
+}
+img{
+    border-radius: 100%;
+    border: 3px solid white;
+    border-width: 10px;
+    position: absolute; top: 30%; left: 45%;
+    transform: translate(-30%,-40%);   
+}
+#text{
+    position: absolute; top: 60%; left: 55%;
+    transform: translate(-60%,-55%);  
+    word-spacing: 2px;
+    
+}
+span{
+    font-size: 20px;
+    font-weight: bold;
+}
+#text2{
+    width: 30vw; height: 10vh;
+    position: absolute; top: 250%; left: 44%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+#circle{
+    background-image: url('images/bg-pattern-top.svg');
+    width: 600px; height: 500px;
+    background-position:  bottom -10px right 2px;
+}
+#circle1{
+    position: absolute; top:325px; left: 634px;
+    background-image: url('images/bg-pattern-bottom.svg');
+    width: 700px; height: 300px;
+   
+}
